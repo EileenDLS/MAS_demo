@@ -34,3 +34,6 @@ In-hospital Mortality Prediction
 **1. medical guideline**: [Merck Manual of Diagnosis and Therapy (professional version)](https://www.msdmanuals.com/professional)
 
 **2. lastest research**: [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EileenDLS/MAS_demo/blob/main/EHRCare_MAS.ipynb)
+
