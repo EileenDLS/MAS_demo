@@ -41,5 +41,7 @@ In-hospital Mortality Prediction
 
 [(response demo)](demo_data/response_demo.jpg)
 
+# Performance
+<img src="demo_data/performance.jpg" alt="framework" width="700">
 
 
