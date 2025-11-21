@@ -39,5 +39,7 @@ In-hospital Mortality Prediction
 
 **2. lastest research**: [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
 
+[(response demo)](demo_data/response_demo.jpg)
+
 
 
