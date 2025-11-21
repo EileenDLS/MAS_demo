@@ -16,7 +16,7 @@ The system integrates a deep learning EHR model (RETAIN) with multiple LLM agent
 In-hospital Mortality Prediction
 
 # 🚀 Overview of the Framework
-
+[framework](IMG.jpg)
 
 # Multi-Agents Systems (MAS)
 
