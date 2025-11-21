@@ -20,6 +20,31 @@ In-hospital Mortality Prediction
 # 🚀 Overview of the Framework
 <img src="IMG.jpg" alt="framework" width="600">
 
+# RETAIN model
+```
+Patient Historical Visit Records
+x1, x2, …, xT  (diagnoses / medications / labs for each visit)
+        │
+        ▼
+[Embedding Layer]
+Convert each visit into a vector representation
+        │
+        ├──▶ RNN1 → α1, α2, …, αT   (visit-level attention)
+        │        (decides which visits are important)
+        │
+        └──▶ RNN2 → β1, β2, …, βT   (variable-level attention)
+                 (decides which variables within a visit are important)
+        │
+        ▼
+[Weighted Representation]
+h = Σ αt · (βt ⊙ xt)
+        │
+        ▼
+[Prediction Layer]
+y = sigmoid(W·h + b)   (e.g., probability of disease)
+```
+[RETAIN: An Interpretable Predictive Model for Healthcare using Reverse Time Attention Mechanism](https://arxiv.org/pdf/1608.05745)
+
 # Multi-Agents Systems (MAS)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EileenDLS/MAS_demo/blob/main/EHRCare_MAS.ipynb)
