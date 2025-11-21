@@ -59,6 +59,8 @@ y = sigmoid(W·h + b)   (e.g., probability of disease)
 
 **Leader Agent**: Summarizes and coordinates outputs from the two doctor agents.
 
+**Large Language Model**: LLama-3.3-70b-instruct ([NaviGator API](https://it.ufl.edu/ai/navigator-toolkit/))
+
 # Corpus
 **1. medical guideline**: [Merck Manual of Diagnosis and Therapy (professional version)](https://www.msdmanuals.com/professional)
 
