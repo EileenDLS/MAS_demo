@@ -70,5 +70,6 @@ y = sigmoid(W·h + b)   (e.g., probability of disease)
 
 # Performance
 <img src="demo_data/performance.jpg" alt="framework" width="700">
+<img src="demo_data/cost.jpg" alt="framework" width="500">
 
 
