@@ -6,6 +6,8 @@ The system integrates a deep learning EHR model (RETAIN) with multiple LLM agent
 
 # 📊 Dataset
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EileenDLS/MAS_demo/blob/main/mimic4_preprocessing.ipynb)
+
 **Source:** [MIMIC-IV (v3.1)](https://physionet.org/content/mimiciv/3.1/)
 
 **Population:** ICU patients with AKI + tubular necrosis diagnosis
@@ -16,9 +18,11 @@ The system integrates a deep learning EHR model (RETAIN) with multiple LLM agent
 In-hospital Mortality Prediction
 
 # 🚀 Overview of the Framework
-![framework](IMG.jpg)
+<img src="IMG.jpg" alt="framework" width="600">
 
 # Multi-Agents Systems (MAS)
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EileenDLS/MAS_demo/blob/main/EHRCare_MAS.ipynb)
 
 **Data Agent**: Converts EHR model outputs into an LLM-readable patient summary
 
@@ -35,5 +39,5 @@ In-hospital Mortality Prediction
 
 **2. lastest research**: [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EileenDLS/MAS_demo/blob/main/EHRCare_MAS.ipynb)
+
 
